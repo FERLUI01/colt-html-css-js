@@ -1,5 +1,5 @@
 // Write your Javascript here
-var pics = [
+let pics = [
   "images/dog_balcony.jpg", //0
   "images/dog_pet.jpg",     //1
   "images/dog_pool.jpg",    //2
@@ -7,9 +7,9 @@ var pics = [
                             //4
 ];
 
-var btn = document.querySelector("button");
-var img = document.querySelector("img");
-var counter = 1;
+let btn = document.querySelector("button");
+let img = document.querySelector("img");
+let counter = 1;
 
 btn.addEventListener("click", function(){
     if(counter === 4){
